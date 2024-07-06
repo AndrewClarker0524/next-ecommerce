@@ -1,0 +1,44 @@
+/* Top Bar */
+.topLeftMenu {
+  @apply ml-8;
+}
+
+.topLeftMenu li {
+  @apply text-xs my-2 mr-4 hover:text-gray300;
+}
+
+.topRightMenu li {
+  @apply text-xs my-2 ml-4 hover:text-gray300;
+}
+
+/* Main Menu */
+.mainMenu {
+  @apply py-6;
+}
+/* .leftMenu {
+  @apply ml-8 my-6;
+} */
+
+.leftMenu li {
+  @apply mr-12 hidden lg:block whitespace-nowrap;
+}
+
+.leftMenu li:hover {
+  @apply text-gray400;
+}
+
+.leftMenu li:last-child {
+  @apply mr-0;
+}
+
+.rightMenu li {
+  @apply ml-12;
+}
+
+.rightMenu li:not(:last-child) {
+  @apply hidden lg:block;
+}
+
+.rightMenu li:nth-child(3) {
+  @apply hidden sm:block;
+}

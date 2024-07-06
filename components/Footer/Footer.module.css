@@ -1,0 +1,36 @@
+.footerHead {
+  @apply text-gray400 text-lg mb-1 md:mb-3;
+}
+
+.column {
+  @apply flex flex-col;
+}
+
+.column a:hover {
+  @apply text-gray400 underline;
+}
+
+.column a,
+.column span {
+  @apply py-2;
+}
+
+.footerContainer {
+  @apply border-t-2 border-gray100 py-16;
+}
+
+.footerContents {
+  @apply flex flex-col md:flex-row justify-between;
+}
+
+.footerContainer > div {
+  @apply mb-6 md:mb-0;
+}
+
+.bottomFooter {
+  @apply border-2 py-1 text-xs border-gray200 text-gray400;
+}
+
+.bottomFooter a {
+  @apply ml-4;
+}
